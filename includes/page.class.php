@@ -29,13 +29,17 @@ class Page {
 
     public function topNavigation(){ ?>
                     <div class="container-fluid" style="background: aliceblue;">
-                        <div class="row">
+                        <div class="row" style="padding-top: 5px; padding-bottom: 10px;">
                             <div class="col-lg-4">
                                 <h5 style="padding: 10px;">Dropdown</h5>
                             </div>
 
                             <div class="col-lg-4 d-flex justify-content-center">
-                                <h5 style="padding: 10px;">GRG</h5>
+                                <h5 style="font-size: 35px;">
+                                    <span>G</span>
+                                    <span style="position: relative; top: 10px;">R</span>
+                                    <span style="position: relative; top: 20px;">G</span>
+                                </h5>
                             </div>
 
                             <div class="col-lg-4">
